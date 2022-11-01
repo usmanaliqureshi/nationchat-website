@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import nclogo from '/src/app/images/nationchatlogo.png'
+import Nav from '../app/navigation'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         </div>
       </div>
       {/* End Header */}
+      <Nav />
     </>
   )
 }
