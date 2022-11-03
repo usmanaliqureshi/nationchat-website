@@ -145,51 +145,6 @@ export default function Nav() {
                       </Menu.Items>
                     </div>
                   </Menu>
-                  {/* <Menu>
-                    <Menu.Button className="flex items-center position-absolute text-gray-800 hover:text-gray-600 font-medium dark:text-gray-200 dark:hover:text-gray-500">
-                      Resources
-                      <svg
-                        className="ml-2 w-2.5 h-2.5 text-gray-600"
-                        width={16}
-                        height={16}
-                        viewBox="0 0 16 16"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5"
-                          stroke="currentColor"
-                          strokeWidth={2}
-                          strokeLinecap="round"
-                        />
-                      </svg>
-                    </Menu.Button>
-                    <Menu.Items>
-                      <Menu.Item className="hs-dropdown-menu transition-[opacity,margin] duration-[0.1ms] md:duration-[150ms] hs-dropdown-open:opacity-100 opacity-0 md:w-80 hidden z-10 bg-white md:shadow-2xl rounded-lg py-2 md:p-2 dark:bg-gray-800 dark:divide-gray-700 before:absolute top-full before:-top-5 before:left-0 before:w-full before:h-5">
-                        {({ active }) => (
-                          <a
-                            className={`${active && 'bg-blue-500'}`}
-                            href="/account-settings"
-                          >
-                            Account settings
-                          </a>
-                        )}
-                      </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <a
-                            className={`${active && 'bg-blue-500'}`}
-                            href="/account-settings"
-                          >
-                            Documentation
-                          </a>
-                        )}
-                      </Menu.Item>
-                      <Menu.Item disabled>
-                        <span className="opacity-75">Invite a friend (coming soon!)</span>
-                      </Menu.Item>
-                    </Menu.Items>
-                  </Menu> */}
                   <a
                     className="font-medium text-gray-800 hover:text-red-600 py-3 md:py-6 dark:text-gray-200 dark:hover:text-gray-500"
                     href="#"
