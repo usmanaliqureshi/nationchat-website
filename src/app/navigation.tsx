@@ -151,6 +151,12 @@ export default function Nav() {
                   >
                     News
                   </a>
+                  <a
+                    className="font-medium text-gray-800 hover:text-red-600 py-3 md:py-6 dark:text-gray-200 dark:hover:text-gray-500"
+                    href="#"
+                  >
+                    Routing
+                  </a>
                   <div className="pt-3 md:pt-0">
                     <a
                       className="inline-flex justify-center items-center gap-x-2 text-center bg-red-600 hover:bg-red-700 border border-transparent text-white text-sm font-medium rounded-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white transition py-2.5 px-3 dark:focus:ring-offset-gray-800"
