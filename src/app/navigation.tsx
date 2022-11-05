@@ -135,7 +135,7 @@ export default function Nav() {
                               <span className="block font-semibold mb-1 text-gray-800 dark:text-gray-200">
                                 Team{" "}
                                 <span className="inline ml-1 text-xs bg-red-600 text-white py-1 px-2 rounded-full">
-                                  We're hiring
+                                  We&apos;re hiring
                                 </span>
                               </span>
                               Meet the people opearting the network on daily basis.
