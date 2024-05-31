@@ -25,7 +25,7 @@ export default function Home() {
         className="group flex flex-col justify-center hover:bg-gray-50 focus:outline-none focus:bg-gray-50 rounded-xl p-4 md:p-7"
         href="#"
       >
-        <div className="flex justify-center items-center size-12 bg-blue-600 rounded-xl">
+        <div className="flex justify-center items-center size-12 bg-red-600 rounded-xl">
           <svg
             className="shrink-0 size-6 text-white"
             xmlns="http://www.w3.org/2000/svg"
@@ -45,10 +45,10 @@ export default function Home() {
         </div>
         <div className="mt-5">
           <h3 className="group-hover:text-gray-600 text-lg font-semibold text-gray-800">
-            Responsive
+          Friendly chat
           </h3>
           <p className="mt-1 text-gray-600">
-            Responsive, and mobile-first project on the web
+          When connecting to NationCHAT you will encounter friendly users that likes to chat & have fun!
           </p>
           <span className="mt-2 inline-flex items-center gap-x-1.5 text-sm text-blue-600 decoration-2 group-hover:underline group-focus:underline font-medium">
             Learn more
@@ -75,7 +75,7 @@ export default function Home() {
         className="group flex flex-col justify-center hover:bg-gray-50 focus:outline-none focus:bg-gray-50 rounded-xl p-4 md:p-7"
         href="#"
       >
-        <div className="flex justify-center items-center size-12 bg-blue-600 rounded-xl">
+        <div className="flex justify-center items-center size-12 bg-red-600 rounded-xl">
           <svg
             className="shrink-0 size-6 text-white"
             xmlns="http://www.w3.org/2000/svg"
@@ -96,10 +96,10 @@ export default function Home() {
         </div>
         <div className="mt-5">
           <h3 className="group-hover:text-gray-600 text-lg font-semibold text-gray-800">
-            Customizable
+          IPv4 & IPv6 Servers
           </h3>
           <p className="mt-1 text-gray-600">
-            Components are easily customized and extendable
+          We provide for our visitors both IPv4 & IPv6 servers. Check the Servers list.
           </p>
           <span className="mt-2 inline-flex items-center gap-x-1.5 text-sm text-blue-600 decoration-2 group-hover:underline group-focus:underline font-medium">
             Learn more
@@ -126,7 +126,7 @@ export default function Home() {
         className="group flex flex-col justify-center hover:bg-gray-50 focus:outline-none focus:bg-gray-50 rounded-xl p-4 md:p-7"
         href="#"
       >
-        <div className="flex justify-center items-center size-12 bg-blue-600 rounded-xl">
+        <div className="flex justify-center items-center size-12 bg-red-600 rounded-xl">
           <svg
             className="shrink-0 size-6 text-white"
             xmlns="http://www.w3.org/2000/svg"
@@ -145,10 +145,10 @@ export default function Home() {
         </div>
         <div className="mt-5">
           <h3 className="group-hover:text-gray-600 text-lg font-semibold text-gray-800">
-            Documentation
+          Applications
           </h3>
           <p className="mt-1 text-gray-600">
-            Every component and plugin is well documented
+          If you want to be part of the NationCHAT IRC Network team, apply using the application form.
           </p>
           <span className="mt-2 inline-flex items-center gap-x-1.5 text-sm text-blue-600 decoration-2 group-hover:underline group-focus:underline font-medium">
             Learn more
@@ -175,7 +175,7 @@ export default function Home() {
         className="group flex flex-col justify-center hover:bg-gray-50 focus:outline-none focus:bg-gray-50 rounded-xl p-4 md:p-7"
         href="#"
       >
-        <div className="flex justify-center items-center size-12 bg-blue-600 rounded-xl">
+        <div className="flex justify-center items-center size-12 bg-red-600 rounded-xl">
           <svg
             className="shrink-0 size-6 text-white"
             xmlns="http://www.w3.org/2000/svg"
@@ -194,10 +194,10 @@ export default function Home() {
         </div>
         <div className="mt-5">
           <h3 className="group-hover:text-gray-600 text-lg font-semibold text-gray-800">
-            24/7 Support
+            WebChat
           </h3>
           <p className="mt-1 text-gray-600">
-            Contact us 24 hours a day, 7 days a week
+          You can directly connect to our network servers & start chatting, by using our Webchat.
           </p>
           <span className="mt-2 inline-flex items-center gap-x-1.5 text-sm text-blue-600 decoration-2 group-hover:underline group-focus:underline font-medium">
             Learn more
@@ -222,6 +222,7 @@ export default function Home() {
     </div>
   </div>
   {/* End Icon Blocks */}
+
     </>
   )
 }
